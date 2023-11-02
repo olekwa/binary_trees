@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * bal - Measures balance factor of a AVL
- * @tree: tree to go through
+ * bal - This will measure balance factor of a AVL
+ * @tree: This is the tree to be measured 
  * Return: balanced factor
  */
 void bal(avl_t **tree)
@@ -22,8 +22,8 @@ void bal(avl_t **tree)
 		*tree = binary_tree_rotate_left((binary_tree_t *)*tree);
 }
 /**
- * successor - get the next successor i mean the min node in the right subtree
- * @node: tree to check
+ * successor - get the next successor in min node in the right subtree
+ * @node: The tree to be checked
  * Return: the min value of this tree
  */
 int successor(bst_t *node)
@@ -46,8 +46,8 @@ int successor(bst_t *node)
 
 }
 /**
- *remove_type - function that removes a node depending of its children
- *@root: node to remove
+ *remove_type - This function removes a node depending on the children
+ *@root: This the node to be removed
  *Return: 0 if it has no children or other value if it has
  */
 int remove_type(bst_t *root)
