@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - Function that measures the height of a binary tree
- * @tree: tree to go through
+ * binary_tree_height - This function measures the height of a binary tree
+ * @tree: The tree to be measured 
  * Return: the height
  */
 
@@ -28,9 +28,9 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 /**
  * bal_avl - Auxiliar function to compare each subtree if its AVL.
- * @tree: node that point to the tree to check.
- * @high: node that point to the higher node selected
- * @lower: node that point to the lower node selected.
+ * @tree: The node that point to the tree to check.
+ * @high: The node that point to the higher node selected
+ * @lower: The node that point to the lower node selected.
  * Return: 1 if tree is AVL, 0 if not.
  */
 int bal_avl(const binary_tree_t *tree, int lower, int high)
