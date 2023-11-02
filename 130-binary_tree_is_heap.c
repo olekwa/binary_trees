@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height - Function that measures the height of a binary tree
- * @tree: tree to go through
+ * binary_tree_height - The function that measures the height of a binary tree
+ * @tree: The tree to be checked 
  * Return: the height
  */
 
@@ -76,8 +76,8 @@ int tree_is_perfect(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_perfect - perfect or not a tree
- * @tree: tree to check
+ * binary_tree_is_perfect - The perfect or not a tree
+ * @tree: The tree to be checked 
  * Return: 1 is it is or 0 if not
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
