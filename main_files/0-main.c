@@ -2,7 +2,7 @@
 #include "binary_trees.h"
 
 /**
- * main - Entry point testing comment
+ * main - Entry point comment testing
  *
  * Return: Always 0 (Success)
  */
