@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * array_to_bst - turns an array to a BST tree
- * @array: array to turns to BST tree
- * @size: size of array
+ * array_to_bst - Thus will turns an array to a BST tree
+ * @array: This is the array to be turned to BST tree
+ * @size: This is the size of the array
  * Return: BST tree from array
  */
 bst_t *array_to_bst(int *array, size_t size)
